@@ -7,6 +7,17 @@ function getNumberOrString(value) {
     return number_value
   }
 }
+
+
+
+document.getElementById('submitComment').addEventListener('click', (event) => {
+  let element_list1 = document.getElementById('list1');
+  let new_li = document.createElement('li');
+  new_li.innerText = getNumberOrString(document.getElementById('text').value);
+
+  element_list1.appendChild(new_li);
+
+});
 var current, array;
 
 
