@@ -159,4 +159,13 @@ ul {
     top: 10%;
     padding-bottom: 15px;
   }
+
+}
+.pictures {
+  
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  
 }
